@@ -1,0 +1,132 @@
+/****
+Mojeed Ajegbile
+CSCI 5060
+Assignment 5
+****/
+body{
+    background-color:black;
+    padding:0px;
+    margin:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#container{
+    background-color: silver;
+    width:800px;
+    margin:auto;
+    padding:auto;
+}
+
+}
+#header{
+    background-color:salmon;
+}
+#header h1{
+    text-align: center;
+    padding-top:0px;
+}
+#header img{
+    margin-top: 10px;
+}
+#content{
+    background-color: linen;
+}
+#indexstage{
+    height:450px;
+    background-image: url("image/a.png");
+    background-size: 100%;
+}
+#reportformstage{
+    height:450px;
+    background-image: url("image/b.png");
+    background-size: 100%;
+}
+#calorieformstage{
+    height:450px;
+    background-image: url("image/c.png");
+    background-size: 100%;
+}
+#reportstage{
+    height:450px;
+    background-image: url("image/d.png");
+    background-size: 100%;
+}
+#caloriestage{
+    height:450px;
+    background-image: url("image/e.png");
+    background-size: 100%;
+}
+#content{
+    overflow: auto;
+}
+.tool{
+    height:250px;
+    width:250px;
+    background-color: brown;
+    border: 1px, solid, black;
+    float:left;
+    margin:20px;
+    padding:50px;
+}
+.tool>a{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top:12px;
+}
+#footer{
+    background-color: tomato;
+    padding-left:400px;
+    padding-top:40px;
+    height:80px;
+    
+}
+div.form{
+    display:block;
+    text-align: center;
+    margin-top: 10px;
+}
+form{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+}
+.home{
+    width:100px;
+    height:50px;
+    background-color:rgba(255, 115, 0, 0.979);
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-top:15px;
+    padding-left:10px;
+}
+.other{
+    width:100px;
+    height:50px;
+    background-color:rgba(255, 115, 0, 0.979);
+    margin-left: 300px;
+    margin-top: 10px;
+    padding-top:15px;
+    padding-left:10px;
+}
+.output{
+    width:288px;
+    border:1px solid black;
+    margin: auto;
+    padding:40px;
+}
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    margin-left: 110px;
+}
+input[type=reset] {
+    border-radius: 5px;
+    border: 0;
+    margin-left:5px;
+}
+.warning{
+    color: red;
+}
+table, th, td {
+    border: 1px solid black;
+ } 
